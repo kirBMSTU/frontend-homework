@@ -15,7 +15,7 @@ QUnit.module('Тестируем функцию anagram', function () {
 			[ 'пост', 'стоп' ]
 		];
 
-		assert.deepEqual(anagram(input), output);
+		assert.deepEqual(anagram(input), output, anagram(input));
 	});
 
 	//мои тесты
