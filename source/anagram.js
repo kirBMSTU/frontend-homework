@@ -1,9 +1,7 @@
 'use strict';
 
-//.toLowerCase().split('').sort();
 const wordToSortedArr = (word) => {
 	return word.toLowerCase().split('').sort();
-	// return [].map.call( word, letter => letter.toLowerCase()).sort();
 };
 
 const isAnagram = (firstWord, secondWord) => {
